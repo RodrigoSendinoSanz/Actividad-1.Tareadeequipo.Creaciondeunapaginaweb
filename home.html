@@ -27,21 +27,7 @@
 						<div id="marker"></div> <!-- marcador para la luz -->
 					  </ul>
 					  <!-- Script del cambio de color -->
-					  <script>
-						  const maker = document.querySelector('#marker');
-						  const item = document.querySelectorAll('ul li a');
-		
-						  function Indicator(e){
-							  marker.style.left = e.offsetLeft+'px';
-							  marker.style.width = e.offsetWidth+'px';
-						  }
-						  item.forEach(link => {
-							link.addEventListener('mousemove', (e) =>{
-								Indicator(e.target);
-							})
-						  })
-		
-					  </script>
+					  <script type="text/javascript"src="scripts/colorcambiomenu.js"></script>
 
 				</nav>
 				<div id="panelcentral"  >
