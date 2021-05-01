@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+		<title>HOKAKU</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="" >
+		<link rel="StyleSheet" type="text/css" href="css/style.css" />
+        <link rel="icon" type="image/png" href="imagenes/icono.png">
+		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=4"></script>
+
+	</head>
+	<body>
+		<div id="contenedor" >
+			<div id="paginadeescritorio">
+				<div id="fondocolor"></div>
+				<header id="logo"> <a href=""><img src="imagenes/logo.png"></a></header>
+				<nav id="menunav">
+					<ul class="menu" >
+						<li><a class="active" href="home.html">Home</a></li>
+						<li><a href="">Noticias</a></li>
+						<li><a href="">Publicaciones</a></li>
+						<li><a href="">Localizacion</a></li>
+						<li><a href="">Quienes somos</a></li>
+						<li><a href="">Areas de actuación</a></li>
+						<li style="float:right"><a href="">Contacto</a></li>
+						<div id="marker"></div> <!-- marcador para la luz -->
+					  </ul>
+					  <!-- Script del cambio de color -->
+					  <script type="text/javascript"src="scripts/colorcambiomenu.js"></script>
+
+				</nav>
+				<div id="formulariofondo">
+                        <h1 id="cuerpoformulario">Formulario de contacto</h1>
+                        <form id="cuerpoformulario" method="post"> 
+                            <p>
+                                <b>Nombre: </b><input type="text" name="Nombre" required="" placeholder=" Su nombre aqui">
+                            </p>
+
+                            <p>
+                                <b>Apellidos: </b><input type="text" name="Apellidos" required="" placeholder=" Sus apellidos aqui">
+                            </p>
+
+                            <p>
+                               <b>Email: </b> <input type="email" required=""placeholder=" Su email aqui">
+                            </p>
+
+                            <p>
+                                <b>Direción: </b><input type="text" name="Direccion" required="" placeholder=" Su direcion">
+                            </p>
+
+                            <p>
+                                <b>Teléfono: </b> <input type="tel" name="telefono" required=""placeholder="Telefono de contacto">
+                            </p>
+
+                            <p id="empresa">Rellenar el siguiente campo en caso de ser una empresa u autonomo:
+                                <br>
+                                <b>NIF: </b><input type="text" name="NIF" placeholder=" nº de identificaión fiscal">
+                            </p>
+
+                            <p>
+                               <b> Grado de urgencia: </b>
+                                <br>
+                                - <input type="range" min="10"  max="100"> +
+                            </p>
+
+                            <p><b> Elija el dia de para la cita: </b> <input type="date" min="2021-01-01">
+                            </p>
+
+                            <p><b>Seleciona el tipo de consulta: </b></p>
+                                <p>
+                                    Diseño web: <input type="checkbox"><br>
+                                    Base de datos: <input type="checkbox">
+                                </p>
+
+                            <p><b>Opciones de contacto: </b></p>
+                            <p>
+                                Atención telefonica: <input type="radio"><br>
+                                Atención via email: <input type="radio">
+                            </p>
+
+                            <p>
+                            <b>URL: </b> <input type="url" placeholder="Direción URL">
+                            </p>
+
+                            <p>
+                                <b>Suba un archivo: </b> <input type="file">
+                            </p>
+
+                            <p><b>Describenos el problema o el motivo de contacto</b></p>
+                                <textarea name="" id="" cols="30" rows="10" style="margin: 0px; width: 1310px; height: 260px;"></textarea>
+                            <br>
+
+                            <input id="botonborrar" type="reset" value="Borrar información">
+                            <br><br>
+                            <input id="botonenviar"type="submit" value="Enviar datos">
+                        </form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
