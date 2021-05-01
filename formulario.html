@@ -34,23 +34,24 @@
                         <h1 id="cuerpoformulario">Formulario de contacto</h1>
                         <form id="cuerpoformulario" method="post"> 
                             <p>
-                                <b>Nombre: </b><input type="text" name="Nombre" required="" placeholder=" Su nombre aqui">
+                                <b>Nombre: </b><input type="text" name="Nombre" required="" placeholder=" Su nombre aqui"> <small>*</small>
                             </p>
 
                             <p>
-                                <b>Apellidos: </b><input type="text" name="Apellidos" required="" placeholder=" Sus apellidos aqui">
+                                <b>Apellidos: </b><input type="text" name="Apellidos" required="" placeholder=" Sus apellidos aqui"><small>*</small>
                             </p>
 
                             <p>
-                               <b>Email: </b> <input type="email" required=""placeholder=" Su email aqui">
+                               <b>Email: </b> <input type="email" required=""placeholder=" Su email aqui"><small>*</small>
                             </p>
 
                             <p>
-                                <b>Direción: </b><input type="text" name="Direccion" required="" placeholder=" Su direcion">
+                                <b>Direción: </b><input type="text" name="Direccion" required="" placeholder=" Su direcion"><small>*</small>
                             </p>
 
                             <p>
-                                <b>Teléfono: </b> <input type="tel" name="telefono" required=""placeholder="Telefono de contacto">
+                                <b>Teléfono: </b> <input type="tel" name="telefono" required="" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}" placeholder="Telefono de contacto"><small>*</small>
+                                <small>Formato: 123-45-67-89 (Escribir los "-")</small>
                             </p>
 
                             <p id="empresa">Rellenar el siguiente campo en caso de ser una empresa u autonomo:
@@ -90,8 +91,8 @@
                             <p><b>Describenos el problema o el motivo de contacto</b></p>
                                 <textarea name="" id="" cols="30" rows="10" style="margin: 0px; width: 1310px; height: 260px;"></textarea>
                             <br>
-
                             <input id="botonborrar" type="reset" value="Borrar información">
+                            <small>Todos los campos con "*" son obligatorios</small>
                             <br><br>
                             <input id="botonenviar"type="submit" value="Enviar datos">
                         </form>
