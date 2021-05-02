@@ -63,7 +63,7 @@ p { margin-left: 10px;}
 
 
 #piedepagina {
-	top: 869px;
+	top: 1430px;
 	left: 34px;
 	width: 1367px;
 	height: 58px;
@@ -82,7 +82,7 @@ p { margin-left: 10px;}
 	top: 200px;
 	left: 38px;
 	width: 1013px;
-	height: 641px;
+	height: 1200px;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -98,7 +98,7 @@ p { margin-left: 10px;}
 	top: 202px;
 	left: 1112px;
 	width: 289px;
-	height: 641px;
+	height: 1200px;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -160,11 +160,14 @@ textarea {
 	backdrop-filter: blur( 4px );
 	-webkit-backdrop-filter: blur( 4px );
 	border-radius: 10px;
-
-	
 }
 
-
+#portada{
+	position: relative;
+	border-radius: 12px;
+	overflow:hidden;
+	margin: 0 auto;
+}
 
 /* Menu */
 
