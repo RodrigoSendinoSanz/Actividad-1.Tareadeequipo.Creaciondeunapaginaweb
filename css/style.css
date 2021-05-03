@@ -63,7 +63,8 @@ p { margin-left: 10px;}
 
 
 #piedepagina {
-	top: 1430px;
+	position:relative;
+	top: 120%;
 	left: 34px;
 	width: 1367px;
 	height: 58px;
@@ -114,7 +115,7 @@ p { margin-left: 10px;}
 	top: 200px;
 	left: 38px;
 	width: 95%;
-	height: 104%;
+	height: 116%;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -123,6 +124,13 @@ p { margin-left: 10px;}
 	background: #e8e8e8;
 	box-shadow:  30px 30px 60px #c5c5c5,
 				 -30px -30px 60px #ffffff;
+}
+
+input[type=”number”]
+{
+-webkit-appearance: textfield !important;
+margin: 0;
+-moz-appearance:textfield !important;
 }
 
 #cuerpoformulario{
