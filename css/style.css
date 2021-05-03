@@ -169,6 +169,11 @@ textarea {
 	margin: 0 auto;
 }
 
+
+
+
+
+
 /* Menu */
 
 .menu {
@@ -246,4 +251,102 @@ ul li:nth-last-child(2) a{
   0 0 30px #5da6ff,
   0 0 45px #5da6ff,
   0 0 60px #5da6ff;
+}
+/* Areas de actuacion*/
+
+#panelcentralareas {
+	top: 200px;
+	left: 38px;
+	width: 1013px;
+	height: 1700px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 12px;
+	background: #e8e8e8;
+	box-shadow:  30px 30px 60px #c5c5c5,
+				 -30px -30px 60px #ffffff;
+}
+
+#panellateralareas {
+	top: 202px;
+	left: 1112px;
+	width: 289px;
+	height: 1550px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 12px;
+	background: #e8e8e8;
+	box-shadow:  30px 30px 60px #c5c5c5,
+				 -30px -30px 60px #ffffff;
+}
+
+#areasdeactuacion{
+	position: relative;
+	border-radius: 100px;
+	overflow:hidden;
+	margin: 0 auto;
+}
+
+#piedepaginaareas {
+	top: 1950px;
+	left: 34px;
+	width: 1367px;
+	height: 58px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 12px;
+	background: linear-gradient(145deg, #f8f8f8, #d1d1d1);
+	box-shadow:  30px 30px 60px #c5c5c5,
+				 -30px -30px 60px #ffffff;
+}
+/* Noticias*/
+
+#panelcentralnoticias {
+	top: 200px;
+	left: 38px;
+	width: 1013px;
+	height: 600px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 12px;
+	background: #e8e8e8;
+	box-shadow:  30px 30px 60px #c5c5c5,
+				 -30px -30px 60px #ffffff;
+}
+#panellateralnoticias {
+	top: 202px;
+	left: 1112px;
+	width: 289px;
+	height: 600px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 12px;
+	background: #e8e8e8;
+	box-shadow:  30px 30px 60px #c5c5c5,
+				 -30px -30px 60px #ffffff;
+}
+
+#piedepaginanoticias {
+	top: 840px;
+	left: 34px;
+	width: 1367px;
+	height: 58px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 12px;
+	background: linear-gradient(145deg, #f8f8f8, #d1d1d1);
+	box-shadow:  30px 30px 60px #c5c5c5,
+				 -30px -30px 60px #ffffff;
 }
