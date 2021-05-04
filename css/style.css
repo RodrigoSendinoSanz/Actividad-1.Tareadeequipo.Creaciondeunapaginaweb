@@ -4,17 +4,35 @@ body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
 
 img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
 
-/* Unificar */
 div { position: absolute; }
+
 aside { position: absolute; }
+
 footer { position: absolute; }
+
 section { margin-left: 10px;}
+
 p { margin-left: 10px;}
 
 #contenedor { display: block; position: relative; width: 1440px;  margin-left: auto; margin-right: auto;  }
 
 #contenedor > div{ position: relative; top:inherit; }
 
+
+/* Hace responsivo */
+.home{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.in-flex{
+	flex: 1;
+	min-width: 250px;
+}
+
+.in-flex:first-child{
+	flex:2;
+}
 
 #paginadeescritorio {
 	top: 0px;
