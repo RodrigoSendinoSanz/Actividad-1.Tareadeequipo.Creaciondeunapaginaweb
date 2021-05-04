@@ -376,35 +376,44 @@ ul li:nth-last-child(2) a{
 	box-shadow:  30px 30px 60px #c5c5c5,
 				 -30px -30px 60px #ffffff;
 }
+/*CÓDIGO CSS*/
 
-
-/*Quienes somos y Noticias*/
-#carcel{
-	width: 400px;
-	height: 200px;
-	margin-left: 40px;
+#container{
+	width:75%;
+	max-width:500px;
+	padding:20px 40px;
+	margin:auto;
 }
 
-#piedepaginaquienessomos {
-	top: 100%;
-	left: 34px;
-	width: 1367px;
-	height: 58px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 12px;
-	background: linear-gradient(145deg, #f8f8f8, #d1d1d1);
-	box-shadow:  30px 30px 60px #c5c5c5,
-				 -30px -30px 60px #ffffff;
+
+fieldset{
+top: 200px;
+left: 38px;
+width: 50%;
+height: 75%;
+-ms-border-radius: 10px;
+-o-border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 12px;
+background: #e8e8e8;
+box-shadow:  30px 30px 60px #c5c5c5,
+		 -30px -30px 60px #ffffff;
+margin-left: 20px;
+}	
+
+label{
+font-size: 20px;
 }
 
-#panelcentralquienessomos {
+legend{
+font-size: 30px;
+}
+#panelcentralcontacto {
 	top: 200px;
 	left: 38px;
-	width: 1000px;
-	height: 600px;
+	width: 1013px;
+	height: 850px;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -414,12 +423,11 @@ ul li:nth-last-child(2) a{
 	box-shadow:  30px 30px 60px #c5c5c5,
 				 -30px -30px 60px #ffffff;
 }
-
-#panellateralquienessomos {
-	top: 0px;
+#panellateralcontacto {
+	top: 202px;
 	left: 1112px;
-	width: 500px;
-	height: 600px;
+	width: 289px;
+	height: 850px;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -429,20 +437,9 @@ ul li:nth-last-child(2) a{
 	box-shadow:  30px 30px 60px #c5c5c5,
 				 -30px -30px 60px #ffffff;
 }
-
-.alineacion{
-	margin-left: 30px;
-}
-
-#paz{
-	width: 400px;
-	height: 350px;
-	margin-left: 40px;
-	margin-top: 30px;
-}
-
-#piedepaginanoticias {
-	top: 90%;
+#piedepaginacontacto {
+	position:relative;
+	top: 900px;
 	left: 34px;
 	width: 1367px;
 	height: 58px;
@@ -455,85 +452,57 @@ ul li:nth-last-child(2) a{
 	box-shadow:  30px 30px 60px #c5c5c5,
 				 -30px -30px 60px #ffffff;
 }
-
-/*Media Queries*/
-
-/*Publicaciones*/
-
-
-@media screen and (min-width:375px) and (max-width:812px) {
-
-#contenedor { 
-	display: block; 
-	position: relative;
-	height: 25%;
-	width: 1440px;  
-	margin-left: auto; 
-	margin-right: auto;  }
-
-	/*ok*/
-	#paginadeescritorio {
-	top: 0px;
-	left: 0px;
-	width: 1200px;
-	height: 1024px;
-	
-	background:rgba(255,255,255,1);
-}
-
-#logo{
-	top: 26px;
-	left: 38px;
-	width: 10px;
-	height: 90px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	background:rgba(196,196,196,1);
-}
-
-#fondocolor {
-	top: 0px;
-	left: 0px;
-	width: 1024px;
-	height: 1024px;
-	background:rgba(255,255,255,1);
-}
-
-#menunav2 {
-	top: 169px;
-	left: 38px;
-	width: 500px;
+#sociallogo {
+	width: 25px;
 	height: 25px;
-	font-size:8px;
+	margin-left: 5px;
+	position: relative;
+}
+
+.alineacion {
+	margin-left: 40px;
+	position: relative;
+}
+#panelcentrallocalizacion {
+	top: 200px;
+	left: 38px;
+	width: 1013px;
+	height: 1250px;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	background:rgba(196,196,196,1);
-	display:inline-block;
-
+	border-radius: 12px;
+	background: #e8e8e8;
+	box-shadow:  30px 30px 60px #c5c5c5,
+				 -30px -30px 60px #ffffff;
 }
-
-
-  #piedepaginapublicaciones { 
-    width: 25%;
-	
-	top:1200px;
-    
-  }
-  /*ok*/
-  #panelcentralpublicaciones {
-	width:25%;
-	height:90%;
+#panellaterallocalizacion {
+	top: 202px;
+	left: 1112px;
+	width: 289px;
+	height: 1250px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 12px;
+	background: #e8e8e8;
+	box-shadow:  30px 30px 60px #c5c5c5,
+				 -30px -30px 60px #ffffff;
 }
-/*ok*/
-	#panellateralpublicaciones {
-	display: none;
-	
-}
-
+#piedepaginalocalizacion {
+	position:relative;
+	top: 1300px;
+	left: 34px;
+	width: 1367px;
+	height: 58px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 12px;
+	background: linear-gradient(145deg, #f8f8f8, #d1d1d1);
+	box-shadow:  30px 30px 60px #c5c5c5,
+				 -30px -30px 60px #ffffff;
 }
