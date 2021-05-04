@@ -4,17 +4,35 @@ body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
 
 img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
 
-/* Unificar */
 div { position: absolute; }
+
 aside { position: absolute; }
+
 footer { position: absolute; }
+
 section { margin-left: 10px;}
+
 p { margin-left: 10px;}
 
 #contenedor { display: block; position: relative; width: 1440px;  margin-left: auto; margin-right: auto;  }
 
 #contenedor > div{ position: relative; top:inherit; }
 
+
+/* Hace responsivo */
+.home{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.in-flex{
+	flex: 1;
+	min-width: 250px;
+}
+
+.in-flex:first-child{
+	flex:2;
+}
 
 #paginadeescritorio {
 	top: 0px;
@@ -359,76 +377,81 @@ ul li:nth-last-child(2) a{
 				 -30px -30px 60px #ffffff;
 }
 
-/*Media Queries*/
 
-/*Publicaciones*/
-
-
-@media screen and (min-width:375px) and (max-width:812px) {
-
-#contenedor { 
-	display: block; 
-	position: relative; 
-	width: 1440px;  
-	margin-left: auto; 
-	margin-right: auto;  }
-
-	#paginadeescritorio {
-	top: 0px;
-	left: 0px;
-	width: 1200px;
-	height: 1024px;
-	
-	background:rgba(255,255,255,1);
+/*Quienes somos y Noticias*/
+#carcel{
+	width: 400px;
+	height: 200px;
+	margin-left: 40px;
 }
 
-#fondocolor {
-	top: 0px;
-	left: 0px;
-	width: 1024px;
-	height: 1024px;
-	background:rgba(255,255,255,1);
-}
-
-#menunav2 {
-	top: 169px;
-	left: 38px;
-	width: 500px;
-	height: 25px;
-	font-size:8px;
+#piedepaginaquienessomos {
+	top: 100%;
+	left: 34px;
+	width: 1367px;
+	height: 58px;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	background:rgba(196,196,196,1);
-	display:inline-block;
-
+	border-radius: 12px;
+	background: linear-gradient(145deg, #f8f8f8, #d1d1d1);
+	box-shadow:  30px 30px 60px #c5c5c5,
+				 -30px -30px 60px #ffffff;
 }
 
-
-  #piedepaginapublicaciones { 
-    width: 30%; 
-	top:1200px;
-    
-  }
-
-  #panelcentralpublicaciones {
-	width:20%;
+#panelcentralquienessomos {
+	top: 200px;
+	left: 38px;
+	width: 1000px;
+	height: 600px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 12px;
+	background: #e8e8e8;
+	box-shadow:  30px 30px 60px #c5c5c5,
+				 -30px -30px 60px #ffffff;
 }
 
-	#panellateralpublicaciones {
-	display: none;
-	
+#panellateralquienessomos {
+	top: 0px;
+	left: 1112px;
+	width: 500px;
+	height: 600px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 12px;
+	background: #e8e8e8;
+	box-shadow:  30px 30px 60px #c5c5c5,
+				 -30px -30px 60px #ffffff;
 }
 
+.alineacion{
+	margin-left: 30px;
 }
 
+#paz{
+	width: 400px;
+	height: 350px;
+	margin-left: 40px;
+	margin-top: 30px;
+}
 
-
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-  
+#piedepaginanoticias {
+	top: 90%;
+	left: 34px;
+	width: 1367px;
+	height: 58px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 12px;
+	background: linear-gradient(145deg, #f8f8f8, #d1d1d1);
+	box-shadow:  30px 30px 60px #c5c5c5,
+				 -30px -30px 60px #ffffff;
 }
