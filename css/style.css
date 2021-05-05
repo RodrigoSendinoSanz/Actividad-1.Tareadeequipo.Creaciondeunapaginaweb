@@ -625,26 +625,26 @@ font-size: 30px;
 	background-color: #51a1ec;
   }
 
-  /* 
-  ##Dispositivo = Desktops
-  ##Resolucion = 1281pxo mayorresolusion desktops
-*/
-
-@media (min-width: 1281px) {
   
-	//CSS
-	
-  }
-  
-  /* 
+   /* 
 	##Dispositivo = Laptops, Desktops
 	##Resolucion = B/w 1025px to 1280px
   */
   
   @media (min-width: 1025px) and (max-width: 1280px) {
 	
-	//CSS
+	#menunav{
+		display: none;
+	}
 	
+	#menumovil{
+		display: inline;
+	}
+
+	#panellateral{
+		display: none;
+	}
+
   }
   
   /* 
@@ -661,7 +661,65 @@ font-size: 30px;
 	#menumovil{
 		display: inline;
 	}
+	#panelcentral{
+		top:10%;
+		position: relative;
+		width: 60%;
+	}
+	#piedepagina{
+		top:20%;
+		width: 90%;
 
+	}
+	#panelcentralcontacto{
+		top:10%;
+		position: relative;
+		width: 60%;
+	}
+    #piedepaginacontacto{
+		top:20%;
+		width: 90%;
+	} 
+    #panelcentrallocalizacion{
+		top:10%;
+		position: relative;
+		width: 60%;
+	} 
+	#piedepaginalocalizacion {
+		top:20%;
+		width: 90%;
+	}
+	#panelcentralareas{
+		top:10%;
+		position: relative;
+		width: 60%;
+	}
+	#piedepaginaareas{
+		top:20%;
+		width: 90%;
+	}
+	#panelcentralpublicaciones{
+		top:10%;
+		position: relative;
+		width: 60%;
+	}
+	#piedepaginapublicaciones{
+		top:20%;
+		width: 90%;
+	}
+	#panelcentralquienessomos{
+		top:10%;
+		position: relative;
+		width: 60%;
+	}
+	#piedepaginaquienessomos{
+		top:20%;
+		width: 90%;
+	}
+	#piedepaginanoticias{
+		top:20%;
+		width: 90%;
+	}
   }
   
   /* 
@@ -695,6 +753,97 @@ font-size: 30px;
 	#menumovil{
 		display: inline;
 	}
+
+	#panelcentral{
+		position: relative;
+		width: 30%;
+		height: 150%;
+	}
+	#panellateral{
+		display: none;
+	}
+	#piedepagina{
+		top:80%;
+		width: 80%;
+	}
+	 
+	img{
+		width: 100;
+		height: 50;
+	}
+    #planos{
+		width: 100;
+		height: 50;
+	}
+	
+	#panelcentralcontacto{
+		position: relative;
+		width: 30%;
+		height: 150%;
+	}
+    #piedepaginacontacto{
+		top:80%;
+		width: 80%;
+	} 
+	#panellateralcontacto{
+		display: none;
+	}
+
+    #panelcentrallocalizacion{
+		position: relative;
+		width: 30%;
+		height: 150%;
+	} 
+	#piedepaginalocalizacion {
+		top:80%;
+		width: 80%;
+	}
+	#panellaterallocalizacion{
+		display: none;
+	}	
+	#panelcentralareas{
+		position: relative;
+		width: 30%;
+		height: 150%;
+	}
+	#piedepaginaareas{
+		top:80%;
+		width: 80%;
+	}
+	#panellateralareas{
+		display: none;
+	}	
+	#panelcentralpublicaciones{
+		position: relative;
+		width: 30%;
+		height: 150%;
+	}
+	#piedepaginapublicaciones{
+		top:80%;
+		width: 80%;
+	}
+	#panellateralpublicaciones{
+		display: none;
+	}	
+	#panelcentralquienessomos{
+		position: relative;
+		width: 30%;
+		height: 150%;
+	}
+	#piedepaginaquienessomos{
+		top:80%;
+		width: 80%;
+	}
+	#panellateralquienessomos{
+		display: none;
+	}	
+	#piedepaginanoticias{
+		top:80%;
+		width: 80%;
+	}
+	#panellateralnoticias{
+		display: none;
+	}	
   }
   
   /* 
@@ -711,5 +860,97 @@ font-size: 30px;
 	#menumovil{
 		display: inline;
 	}
+	#panelcentral{
+		top:10%;
+		position: relative;
+		width: 20%;
+		height: 20%;
+	}
+	#panellateral{
+		display: none;
+	}
+	#piedepagina{
+		top:4%;
+		width: 80%;
+	}
+
+	#planos{
+		width: 70;
+		height: 30;
+	}
+	#panelcentralcontacto{
+		top:10%;
+		position: relative;
+		width: 20%;
+		height: 20%;
+	}
+    #piedepaginacontacto{
+		top:4%;
+		width: 80%;
+	} 
+	#panellateralcontacto{
+		display: none;
+	}
+
+    #panelcentrallocalizacion{
+		top:10%;
+		position: relative;
+		width: 20%;
+		height: 20%;
+	} 
+	#piedepaginalocalizacion {
+		top:4%;
+		width: 80%;
+	}
+	#panellaterallocalizacion{
+		display: none;
+	}	
+	#panelcentralareas{
+		top:10%;
+		position: relative;
+		width: 20%;
+		height: 20%;
+	}
+	#piedepaginaareas{
+		top:4%;
+		width: 80%;
+	}
+	#panellateralareas{
+		display: none;
+	}	
+	#panelcentralpublicaciones{
+		top:10%;
+		position: relative;
+		width: 20%;
+		height: 20%;
+	}
+	#piedepaginapublicaciones{
+		top:4%;
+		width: 80%;
+	}
+	#panellateralpublicaciones{
+		display: none;
+	}	
+	#panelcentralquienessomos{
+		top:10%;
+		position: relative;
+		width: 20%;
+		height: 20%;
+	}
+	#piedepaginaquienessomos{
+		top:4%;
+		width: 80%;
+	}
+	#panellateralquienessomos{
+		display: none;
+	}	
+	#piedepaginanoticias{
+		top:4%;
+		width: 80%;
+	}
+	#panellateralnoticias{
+		display: none;
+	}	
   
   }
+  
