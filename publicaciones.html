@@ -18,34 +18,52 @@
 			<div id="paginadeescritorio">
 				<div id="fondocolor"></div>
 				<header id="logo"> <a href=""><img src="imagenes/logo.png"></a></header>
-				<nav id="menunav2">
+				<nav id="menunav">
 					<ul class="menu" >
-						<li><a class="active" href="home.html">Home</a></li>
-						<li><a href="noticias.html">Noticias</a></li>
-						<li><a href="publicaciones.html">Publicaciones</a></li>
-						<li><a href="localizacion.html">Localizacion</a></li>
-						<li><a href="quienesomos.html">Quienes somos</a></li>
-						<li><a href="areasdeactuacion.html">Areas de actuación</a></li>
-						<li style="float:right"><a href="contacto.html">Contacto</a></li>
-						<div id="marker"></div> <!-- marcador para la luz -->
-					  </ul>
+						<ul class="menu" class="in-flex">
+							<li class="selecion"><a class="active" href="home.html" >Home</a></li>
+							<li class="selecion"><a href="noticias.html">Noticias</a></li>
+							<li class="selecion"><a href="publicaciones.html">Publicaciones</a></li>
+							<li class="selecion"><a href="localizacion.html">Localizacion</a></li>
+							<li class="selecion"><a href="quienesomos.html">Quienes somos</a></li>
+							<li class="selecion"><a href="areasdeactuacion.html">Areas de actuaciÃ³n</a></li>
+							<li class="selecion" style="float:right"><a href="contacto.html">Contacto</a></li>
+							<div id="marker"></div> <!-- marcador para la luz -->
+						  </ul>
+						  <!-- Script del cambio de color -->
+						  <script type="text/javascript"src="scripts/colorcambiomenu.js"></script>
 					  <!-- Script del cambio de color -->
 					  <script type="text/javascript"src="scripts/colorcambiomenu.js"></script>
+				</nav>
+				</nav>
 
-				</nav>
-				</nav>
+				<nav id="menumovil">
+					<div class="dropdown">
+						<button class="dropbtn">MENU</button>
+						<div class="dropdown-content">
+							<a href="home.html" >Home</a>
+							<a href="noticias.html">Noticias</a>
+							<a href="publicaciones.html">Publicaciones</a>
+							<a href="localizacion.html">Localizacion</a>
+							<a href="quienesomos.html">Quienes somos</a>
+							<a href="areasdeactuacion.html">Areas de actuaciÃ³n</a>
+							<a href="contacto.html">Contacto</a>
+						</div>
+					  </div>
+					 </nav>
+
 				<div id="panelcentralpublicaciones">
 					<section>
 						<header>
-							<h1> Lenguajes de programación</h1>
+							<h1> Lenguajes de programaciï¿½n</h1>
 							<article>
 								<p> 
-								<a href="https://www.europapress.es/portaltic/software/noticia-javascript-mantiene-lenguaje-programacion-mas-popular-14-millones-desarrolladores-20210430172721.html">Javascript se mantiene como el lenguaje de programación más popular, con 14 millones de desarrolladores</a>
+								<a href="https://www.europapress.es/portaltic/software/noticia-javascript-mantiene-lenguaje-programacion-mas-popular-14-millones-desarrolladores-20210430172721.html">Javascript se mantiene como el lenguaje de programaciï¿½n mï¿½s popular, con 14 millones de desarrolladores</a>
 
 							</article>
 							<article>
 								<p> 
-								<a href="https://www.xataka.com/aplicaciones/rust-lenguaje-moda-hay-quien-cree-que-se-convertira-sucesor-legendario-c">Rust es el lenguaje de moda y hay quien cree que se convertirá en el sucesor del legendario C</a>
+								<a href="https://www.xataka.com/aplicaciones/rust-lenguaje-moda-hay-quien-cree-que-se-convertira-sucesor-legendario-c">Rust es el lenguaje de moda y hay quien cree que se convertirï¿½ en el sucesor del legendario C</a>
 
 							</article>
 							<article>
@@ -61,12 +79,12 @@
 							<h1> Aplicaciones Web</h1>
 							<article>
 								<p> 
-								<a href="https://www.geekstrong.com.mx/google-chrome-obtiene-una-nueva-funcion-de-aplicacion-web-avanzada/">Google Chrome obtiene una nueva función de aplicación web avanzada</a>
+								<a href="https://www.geekstrong.com.mx/google-chrome-obtiene-una-nueva-funcion-de-aplicacion-web-avanzada/">Google Chrome obtiene una nueva funciï¿½n de aplicaciï¿½n web avanzada</a>
 
 							</article>
 							<article>
 								<p> 
-								<a href="https://andro4all.com/guias/apps-android/telegram-web-que-es-como-usar-versiones">Telegram Web: qué es, todas las versiones y cómo usarlo en PC, tablet y móvil</a>
+								<a href="https://andro4all.com/guias/apps-android/telegram-web-que-es-como-usar-versiones">Telegram Web: quï¿½ es, todas las versiones y cï¿½mo usarlo en PC, tablet y mï¿½vil</a>
 
 							</article>
 							<article>
@@ -79,7 +97,7 @@
 					<br> </br>
 					<section>
 						<header>
-							<h1> Tecnología</h1>
+							<h1> Tecnologï¿½a</h1>
 							<article>
 								<p> 
 								<a href="https://www.computerworld.es/tecnologia/la-nube-es-el-nuevo-centro-de-datos">La nube es el nuevo centro de datos</a>
@@ -87,7 +105,7 @@
 							</article>
 							<article>
 								<p> 
-								<a href="https://confidencialcolombia.com/tecnologia/seguridad-vs-complejidad-el-campo-de-batalla-clave-en-la-era-de-la-nube-hibrida/2021/05/02/">Seguridad vs. complejidad: el campo de batalla clave en la era de la nube híbrida</a>
+								<a href="https://confidencialcolombia.com/tecnologia/seguridad-vs-complejidad-el-campo-de-batalla-clave-en-la-era-de-la-nube-hibrida/2021/05/02/">Seguridad vs. complejidad: el campo de batalla clave en la era de la nube hï¿½brida</a>
 
 							</article>
 							<article>
@@ -122,6 +140,6 @@
 				</aside>
 				</aside>
 				<footer id="piedepaginapublicaciones">				  
-					<p><b>Autor: Roberto González Morón</b><br>
+					<p><b>Autor: Roberto Gonzï¿½lez Morï¿½n</b><br>
 						<a href="mailto:robert.gonzalez.mn@gmail.com">robert.gonzalez.mn@gmail.com</a></p>
 				</footer>
